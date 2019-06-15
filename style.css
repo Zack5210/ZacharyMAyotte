@@ -1,0 +1,41 @@
+/* CSS Document */
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size:15px;
+	line-height:1.5;
+	background-color:aqua;
+}
+
+/* Gobal */
+.container{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+/* Header*/
+header{
+	background: #DFC6C6;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom: #CF5F61 3px solid;
+}
+
+header a{
+	color:#0A23E7;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+	
+}
