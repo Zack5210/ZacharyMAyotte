@@ -12,12 +12,13 @@ body{
 	background:url("Assets/Images/Background.jpg");
 	background-size: cover;
 	font-family: "Arial";
-	font-size: 100%;
+	font-size: 100%vw;
 	color: white;
 }
 
 nav{
 	font-size: 100%vw;
+	height: 100px;
 }
 
 ul{
@@ -29,11 +30,11 @@ ul{
 
 ul li{
 	float : right;
-	width: 17%;
-	height: 25px;
+	width: 15%;
+	height: 40px;
 	background: repeating-linear-gradient(blue,black);
 	opacity: 0.8;
-	line-height: 25px;
+	line-height: px;
 	text-align: center;	
 }
 
@@ -44,7 +45,20 @@ ul li a{
 	
 }
 
+ul li ul li{
+	height: 30px;
+	width: 100%;
+	display: none;
+	
+}
+
 ul li a:hover{
 	background-color: white;
 	color: black;
 }
+
+ul li:hover ul li {
+	display:block;
+}
+
+
