@@ -12,6 +12,7 @@ body{
 	background:url("Assets/Images/Background.jpg");
 	background-size: cover;
 	font-family: "Arial";
+	font-size: 100%;
 	color: white;
 }
 
