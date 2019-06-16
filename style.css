@@ -24,7 +24,7 @@ ul{
 
 ul li{
 	float : right;
-	width: 16%;
+	width: 20%;
 	height: 25px;
 	background: repeating-linear-gradient(blue,black);
 	opacity: 0.8;
