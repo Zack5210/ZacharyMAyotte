@@ -16,6 +16,10 @@ body{
 	color: white;
 }
 
+nav{
+	font-size: 100%vw;
+}
+
 ul{
 	margin: 1px;
 	padding: 0px 0 0 0;
@@ -25,7 +29,7 @@ ul{
 
 ul li{
 	float : right;
-	width: 20%;
+	width: 17%;
 	height: 25px;
 	background: repeating-linear-gradient(blue,black);
 	opacity: 0.8;
