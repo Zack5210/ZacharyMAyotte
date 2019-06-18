@@ -1,14 +1,45 @@
-.a{
-	background-color: red;
-	
+.center{
+	background-color: black;
+	opacity: 0.5;
 	position: absolute;
-	
-	width: 80%;
-	height: 40%;
-	
+	width: 90%;
+	height: 70%;
 	left: 50%;
 	top:50%;
-	
-	margin-left: -40%;
-		
+	margin-left: -45%;
+	margin-top: -12.5%; 
+}
+
+html{
+	background: #B41215;
+}
+
+
+nav{
+	color:white;
+	opacity: 1.0;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 40px;
+}
+
+nav ul li{
+	float: left;
+	width: 20%;
+	height: 40px;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+nav ul li:hover{
+	background-color: green;
+}
+
+nav ul li a{
+	font-size-adjust: auto;
 }
