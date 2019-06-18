@@ -28,12 +28,15 @@ nav ul{
 }
 
 nav ul li{
+	padding-top: 1%;
+	padding-bottom: 3%;
 	float: left;
 	width: 20%;
-	height: 40px;
+	height: 0px;
 	background-color: white;
 	color: black;
 	text-align: center;
+	
 }
 
 nav ul li:hover{
@@ -42,4 +45,13 @@ nav ul li:hover{
 
 nav ul li a{
 	font-size-adjust: auto;
+}
+.Left {
+	align-content: left;
+}
+.Right {
+	align-content: right;
+}
+.CenterLogo {
+	align-content: center;
 }
