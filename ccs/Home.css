@@ -11,7 +11,7 @@
 }
 
 html{
-	background: #B41215;
+	background: black;
 }
 
 
@@ -37,7 +37,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-	background-color: green;
+	background-color: red;
 }
 
 nav ul li a{
